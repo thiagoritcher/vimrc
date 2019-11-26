@@ -1,5 +1,4 @@
-source ./basic.vim
-let g:mapleader = mapleader
+source  $HOME/basic.vim
 
 set nocompatible              " be iMproved, required
 

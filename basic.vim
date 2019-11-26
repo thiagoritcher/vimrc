@@ -1,4 +1,4 @@
-let mapleader=","
+let mapleader = ","
 
 nnoremap <leader>a ggVG
 nnoremap <leader>w :w<cr>
