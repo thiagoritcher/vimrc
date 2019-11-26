@@ -1,4 +1,4 @@
-source  $HOME/basic.vim
+source  $HOME/.basic.vim
 
 set nocompatible              " be iMproved, required
 
