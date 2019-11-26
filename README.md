@@ -5,5 +5,5 @@ This also includes configuration for using vrapper plugin for Eclipse and ideavi
 basic.vim includes shared configurations and .files include specific configurations.
 
 
-#Instalation
+## Instalation
 Running install.bat or install.sh creates symlinks on the home directory for the cofinguration files. On windows, this requires an elevated promp.  
