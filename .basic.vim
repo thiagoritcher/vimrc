@@ -3,7 +3,6 @@ let mapleader = ","
 nnoremap <leader>a ggVG
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :wq<cr>
-nnoremap <leader>a :bp<cr>
 nnoremap <leader>f :bn<cr>
 nnoremap sh :nohlsearch<Bar>:echo<CR>
 
@@ -31,9 +30,11 @@ vnoremap H ^
 
 noremap <leader>r "
 
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+noremap <C-h> <C-w>h
+
 vmap <Tab> >gv
 vmap <S-Tab> <gv
 inoremap <S-Tab> <C-D>
-
-nnoremap k gk
-nnoremap j gj
