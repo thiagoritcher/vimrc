@@ -44,9 +44,6 @@ set scrolloff=3 " keep three lines between the cursor and the edge of the screen
 "auto indent for brackets
 inoremap {<CR> {<CR>}<Esc>O
 
-nnoremap <leader>l :tabnext<CR>
-nnoremap <leader>h :tabprevious<CR>
-
 "nnoremap tj  :tabnext<CR>
 
 set mouse=a
