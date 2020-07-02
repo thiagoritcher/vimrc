@@ -28,13 +28,14 @@ vnoremap <leader>y "*y
 nnoremap <leader>P "0p
 vnoremap <leader>P "0p
 
+vnoremap <leader><leader> "
+
 nnoremap L $
 nnoremap H ^
 
 vnoremap L $
 vnoremap H ^
 
-noremap <leader>r "
 noremap <leader>c :
 
 noremap <C-j> <C-w>j
