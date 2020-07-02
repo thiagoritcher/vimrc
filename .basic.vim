@@ -28,6 +28,7 @@ vnoremap <leader>y "*y
 nnoremap <leader>P "0p
 vnoremap <leader>P "0p
 
+nnoremap <leader><leader> "
 vnoremap <leader><leader> "
 
 nnoremap L $
