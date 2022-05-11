@@ -6,11 +6,17 @@ nnoremap <leader>a ggVG
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
 nnoremap <leader>f :bn<cr>
+nnoremap <leader>c :
 nnoremap sh :nohlsearch<Bar>:echo<CR>
 
 nnoremap mm ]m
 
 inoremap jj <Esc>
+
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
 
 nnoremap vm [mVi{jok 
 nnoremap vo{ Vi{jok 
@@ -24,13 +30,16 @@ vnoremap <leader>y "*y
 nnoremap <leader>P "0p
 vnoremap <leader>P "0p
 
+nnoremap <leader><leader> "
+vnoremap <leader><leader> "
+
 nnoremap L $
 nnoremap H ^
 
 vnoremap L $
 vnoremap H ^
 
-noremap <leader>r "
+noremap <leader>c :
 
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k

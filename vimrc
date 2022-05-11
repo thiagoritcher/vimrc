@@ -1,24 +1,35 @@
 source  $HOME/.basic.vim
+command EMap  source $HOME/work/vim/eclim.vim
+
+let g:camelcasemotion_key = ';'
+
+" Plugins will be downloaded under the specified directory.
+ call plug#begin('~/.vim/plugged')
+" Declare the list of plugins.
+Plug 'vim-scripts/argtextobj.vim'
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'bkad/CamelCaseMotion'
+" List ends here. Plugins become visible to Vim after this call.
+ call plug#end()
 
 set nocompatible              " be iMproved, required
-
 filetype off                  " required
 set guifont=Noto_Mono:h10:cANSI
-colorscheme blue
+"colorscheme blue
 
 "set bomb
 set encoding=utf-8
 set autoindent
 set ts=4
-filetype on
+filetype plugin indent on
 
 syntax on
 set ignorecase
 set smartcase
 set hlsearch
 set modelines=0
-set wildmenu
-set wildmode=longest:full
+set wildmenu 
+set wildmode=full
 set nu "line numbers
 
 
