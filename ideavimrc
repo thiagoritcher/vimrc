@@ -1,5 +1,7 @@
 let mapleader = ","
 
+set argtextobj
+
 nnoremap <leader>a ggVG
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>

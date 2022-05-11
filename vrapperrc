@@ -1,0 +1,46 @@
+source ~/.basic.vim
+" Procedimentos de trabalho com ambiente
+
+" Carrega a partir do reverse o load com a tabela indicada
+nmap :rvl :r!rv.bat load list 
+
+" Carrega os parametros da tabela 
+nmap :rvp :r!rv.bat param array 
+nmap :rvo :r!rv.bat param object 
+nmap :rvc :r!rv.bat param class 
+
+" Carrega os nomes de colunas para listas da tabela
+nmap :rvn :r!rv.bat names list 
+
+" Carrega os nomes de colunas para listas da tabela
+nmap :rvt :r!rv.bat tables list 
+
+
+nmap :rpt :%s/seg_modulo//gc<LEFT><LEFT><LEFT>
+nmap :rpr :%s/mod2//gc<LEFT><LEFT><LEFT>
+nmap :rpn :%s/Modulo//gc<LEFT><LEFT><LEFT>
+
+nmap gF :r!eclipse-remote.bat <C-R><C-A><RETURN>
+
+imap ,s	$
+imap >>	->
+ 
+" Pesquisa com 2 letras
+nmap s <Plug>(sneak_s)
+nmap S <Plug>(sneak_S)
+nmap ; <Plug>(sneak-next)
+nmap , <Plug>(sneak-prev)
+vmap s <Plug>(sneak_s)
+vmap Z <Plug>(sneak_S)
+vmap ; <Plug>(sneak-next)
+vmap , <Plug>(sneak-prev)
+nmap f <Plug>(sneak_f)
+nmap F <Plug>(sneak_F)
+nmap t <Plug>(sneak_t)
+nmap T <Plug>(sneak_T)
+vmap f <Plug>(sneak_f)
+vmap F <Plug>(sneak_F)
+vmap t <Plug>(sneak_t)
+vmap T <Plug>(sneak_T)
+omap z <Plug>(sneak_s)
+omap Z <Plug>(sneak_S)
