@@ -1,4 +1,4 @@
-nmap <leader>aa iclass {<return>}<Esc>k$i
+nmap <leader>aa ipublic class {<return>}<Esc>k$i
 nmap <leader>ab :source java.vim<cr>
 nmap <leader>ac ipublic static void main(String[] args){<return>}<Esc>k$a
 nmap <leader>ad iprivate String ;<Esc>i
@@ -61,7 +61,7 @@ nmap <leader>cj "*pa v = new <Esc>"*pa();
 nmap <leader>ck "apa v = new <Esc>"apa();
 nmap <leader>cl "bpa v = new <Esc>"bpa();
 nmap <leader>cm itry{<cr>}catch(Exception e){<cr>e.printStackTrace();<cr>}
-"nmap <leader>cn 
+nmap <leader>cn ipackage br.com.ritcher.;<Esc>i
 "nmap <leader>co 
 "nmap <leader>cp 
 "nmap <leader>cq 

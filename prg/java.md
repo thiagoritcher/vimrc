@@ -12,6 +12,7 @@ bi priv method       ck a v = new
 bl test method       cl b v = new
 bj pub method        ax return ;
 cm try catch
+cn package
 
 #Types                         #Names
            pfld var  name      bf name
