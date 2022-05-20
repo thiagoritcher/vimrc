@@ -1,4 +1,9 @@
 let mapleader = ","
+set showcmd
+set notimeout
+set relativenumber
+colorscheme darkblue
+
 nnoremap <leader>w :w<return>
 "nnoremap <leader>q :bdelete<return>
 nnoremap <leader>q :q<return>
