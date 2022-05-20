@@ -16,4 +16,5 @@ nnoremap <leader>ej :e $HOME/java.vim<cr>
 nnoremap <leader>dj :sp $HOME/java.md<cr> 
 nnoremap <leader>du <C-w>k10k<C-w>j 
 nnoremap <leader>dd <C-w>k10j<C-w>j 
+nnoremap <leader>dq <C-w>k:q!
 syntax on
