@@ -33,8 +33,8 @@ nmap <leader>bg adescription <Esc>
 nmap <leader>bh iprivate void (){<cr>}<Esc>k$3ha
 nmap <leader>bi iprivate (){<cr>}<Esc>k$3ha
 nmap <leader>bj ipublic (){<cr>}<Esc>k$3ha
-nmap <leader>bk i@Test<cr>class {<cr>}<Esc>k$i
-nmap <leader>bl ipublic void test(){<cr>}<Esc>k$3ha
+nmap <leader>bk iclass {<cr>}<Esc>k$i
+nmap <leader>bl i@Test<cr>public void test(){<cr>}<Esc>k$3ha
 nmap <leader>bm iprivate ArrayList ;<Esc>i
 nmap <leader>bn iprivate Hashmap<,> ;<Esc>i
 nmap <leader>bo i.length()<Esc>
@@ -62,11 +62,11 @@ nmap <leader>ck "apa v = new <Esc>"apa();
 nmap <leader>cl "bpa v = new <Esc>"bpa();
 nmap <leader>cm itry{<cr>}catch(Exception e){<cr>e.printStackTrace();<cr>}
 nmap <leader>cn ipackage br.com.ritcher.;<Esc>i
-"nmap <leader>co 
-"nmap <leader>cp 
-"nmap <leader>cq 
-"nmap <leader>cr 
-"nmap <leader>cs 
+nmap <leader>co pa v = new <Esc>pa();
+nmap <leader>cp import static org.junit.Assert.*;
+nmap <leader>cq aassertTrue();<Esc>hi
+nmap <leader>cr aassertNotNull();<Esc>hi
+nmap <leader>cs aassertEquals();<Esc>hi
 "nmap <leader>ct 
 "nmap <leader>cu 
 "nmap <leader>cv 
