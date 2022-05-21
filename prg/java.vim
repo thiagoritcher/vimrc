@@ -63,7 +63,7 @@ nmap <leader>cl "bpa v = new <Esc>"bpa();
 nmap <leader>cm itry{<cr>}catch(Exception e){<cr>e.printStackTrace();<cr>}
 nmap <leader>cn ipackage br.com.ritcher.;<Esc>i
 nmap <leader>co pa v = new <Esc>pa();
-nmap <leader>cp import static org.junit.Assert.*;
+nmap <leader>cp iimport static org.junit.Assert.*;<cr>import org.junit.Test;
 nmap <leader>cq aassertTrue();<Esc>hi
 nmap <leader>cr aassertNotNull();<Esc>hi
 nmap <leader>cs aassertEquals();<Esc>hi
