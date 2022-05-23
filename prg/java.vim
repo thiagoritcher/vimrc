@@ -15,7 +15,7 @@ nmap <leader>an iDouble ;<Esc>i
 nmap <leader>ao a[]
 nmap <leader>ap a{,}<Esc>
 nmap <leader>aq iArrayList<> ;<Esc>i
-nmap <leader>ar iHashmap<,> ;<Esc>i
+nmap <leader>ar iHashMap<,> ;<Esc>i
 nmap <leader>as iif(){<cr>}<Esc>k$hi
 nmap <leader>at a= new <Esc>
 nmap <leader>au ifor(int i = 0; i < ; i++){<cr>}<Esc>k$7h
@@ -26,7 +26,7 @@ nmap <leader>az aString <Esc>
 nmap <leader>ba aInteger 
 nmap <leader>bb aDouble <Esc>
 nmap <leader>bc aArrayList<> <Esc>
-nmap <leader>bd aHashmap<,> <Esc>
+nmap <leader>bd aHashMap<,> <Esc>
 nmap <leader>be avalue <Esc>
 nmap <leader>bf aname <Esc> 
 nmap <leader>bg adescription <Esc>
@@ -36,12 +36,12 @@ nmap <leader>bj ipublic (){<cr>}<Esc>k$3ha
 nmap <leader>bk iclass {<cr>}<Esc>k$i
 nmap <leader>bl i@Test<cr>public void test(){<cr>}<Esc>k$3ha
 nmap <leader>bm iprivate ArrayList ;<Esc>i
-nmap <leader>bn iprivate Hashmap<,> ;<Esc>i
+nmap <leader>bn iprivate HashMap<,> ;<Esc>i
 nmap <leader>bo i.length()<Esc>
 nmap <leader>bp i.length<Esc>
 nmap <leader>bq i.size()<Esc>
-nmap <leader>br i.get()<Esc>
-nmap <leader>bs i.put(<Esc>$i)
+nmap <leader>br i.get();<Esc>
+nmap <leader>bs i.put(<Esc>$i);
 nmap <leader>bt bve"ay
 nmap <leader>bu "ap
 nmap <leader>bv ve"ay
@@ -49,8 +49,8 @@ nmap <leader>bw i()<Esc>
 nmap <leader>bx bve"by
 nmap <leader>bz "bp
 nmap <leader>ca ve"by
-nmap <leader>cb i.keySet() 
-nmap <leader>cc i.iterator() 
+nmap <leader>cb i.keySet();
+nmap <leader>cc i.iterator();
 nmap <leader>cd i.equals(<Esc>$i)
 nmap <leader>ce i""<Esc>i
 nmap <leader>cf i''<Esc>i
@@ -61,25 +61,26 @@ nmap <leader>cj "*pa v = new <Esc>"*pa();
 nmap <leader>ck "apa v = new <Esc>"apa();
 nmap <leader>cl "bpa v = new <Esc>"bpa();
 nmap <leader>cm itry{<cr>}catch(Exception e){<cr>e.printStackTrace();<cr>}
-nmap <leader>cn ipackage br.com.ritcher.;<Esc>i
+let package="br.com.ritcher."
+nmap <leader>cn :put =\"package \". package<cr>A
 nmap <leader>co pa v = new <Esc>pa();
 nmap <leader>cp iimport static org.junit.Assert.*;<cr>import org.junit.Test;
 nmap <leader>cq aassertTrue();<Esc>hi
 nmap <leader>cr aassertNotNull();<Esc>hi
 nmap <leader>cs aassertEquals();<Esc>hi
-"nmap <leader>ct 
-"nmap <leader>cu 
-"nmap <leader>cv 
-"nmap <leader>cw 
-"nmap <leader>cx 
-"nmap <leader>cz 
-"nmap <leader>da 
-"nmap <leader>db 
-"nmap <leader>dc 
-"nmap <leader>dd 
-"nmap <leader>de 
-"nmap <leader>df 
-"nmap <leader>dg 
+nmap <leader>ct iimport.java.util.*;<Esc>
+nmap <leader>cu iprivate<Esc>
+nmap <leader>cv ipublic<Esc>
+nmap <leader>cw i.add();<Esc>hi
+nmap <leader>cx aassertFalse();<Esc>hi
+nmap <leader>cz ipublic enum {<return>}<Esc>k$i
+nmap <leader>da ipublic interface {<return>}<Esc>k$i
+nmap <leader>db i<dependency><cr> <groupId>org.mockito</groupId><cr> <artifactId>mockito-all</artifactId><cr> <version>1.10.19</version><cr> <scope>test</scope><cr> </dependency>
+nmap <leader>dc iimport static org.mockito.Mockito.*;<Esc>
+nmap <leader>dd imock(.class);<Esc>7hi
+nmap <leader>de iwhen().thenReturn();<Esc>3bli
+nmap <leader>df pa mk = mock(<Esc>pa.class);<Esc>
+"nmap <leader>dg
 "nmap <leader>dh 
 "nmap <leader>di 
 "nmap <leader>dj 

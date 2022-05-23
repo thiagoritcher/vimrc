@@ -1,55 +1,100 @@
-#Structure            #Keyword        
-aa class              ai final        
-ac main method        aj static       
-as if                 ao []           
-ch if null            ap {,}          
-au fori               at = new        
-av foreach            ce ""           
-aw pub void method    cf ''           
-bh priv void method   cg add ;        
-bi priv method        co 0 v = new          
-bj pub method         cj ^v v = new   
-cm try catch          ck a v = new    
-cn package            cl b v = new    
-                      ax return ;     
+#Config
+-------
+:let var=exp
+package="com.g.."
 
-#Methods        #Test
-ah println      cp import test
-bo .length()    bk class      
-bp .length      bl test method 
-bq .size()      cq ass true
-br .get()       cr ass not null
-bs .put()       cs ass equals  
+#Structure       
+----------
+cn package    
+aa pub class        
+ac main method     
+as if          
+ch if null       
+au fori         
+av foreach       
+aw pub void method   
+bh priv void method   
+bi priv method        
+bj pub method      
+cm try catch      
+da interface
+cz enum
+
+#Keyword   
+----------
+cu private
+cv public
+ai final   
+aj static   
+ao []     
+ap {,}    
+at = new   
+ce ""     
+cf ''     
+cg add ;   
+co 0 v = new 
+cj ^v v = new 
+ck a v = new 
+cl b v = new 
+ax return ;  
+
+#Methods    
+----------
+ah println   
+bo .length()  
+bp .length   
+bq .size()   
+br .get()    
+bs .put()    
 cb .keySet() 
 cc .iterator()
-cd .equals()                   
+cd .equals()          
+cw .add()
 
+#Test
+-----------
+db maven mock
+cp import test
+dc import mock
+bk class   
+bl test method 
+cq ass true
+cx ass false
+cr ass not null
+cs ass equals 
+dd mock
+df mock p
+de mock when
 
-#Names           #Methods         
-bf name          ah println       
-bg description   bo .length()     
-be value         bp .length       
-                 bq .size()       
-                 br .get()        
-                 bs .put()         
-                 cb .keySet() 
-                 cc .iterator() 
-                 cd .equals() 
-
-#Copy          #Misc
-bt bve"ay      ab src java
-bu "ap         ci :bn      
+#Names       
+----------
+bf name       
+bg description   
+be value      
+be object      
+be list      
+be map      
+ 
+#Copy     
+----------
+bt bve"ay   
+bu "ap     
 bv ve"ay
 bx bve"by
 bz "bp
-ca ve"by                   
+ca ve"by          
 
+#Misc
+----------
+ab src java
+ci :bn   
 
-#Types                         
-           pfld var  name      
-String     ad   al   az          
-Integer    ae   am   ba              
-Double     af   an   bb              
-ArrayList  aq   aq   bc                 
-HashMap    ar   ar   bd               
+#Types             
+----------
+        pfld var name   
+String    ad  al  az     
+Integer   ae  am  ba       
+Double    af  an  bb       
+ArrayList bm  aq  bc         
+HashMap   bn  ar  bd        
 
