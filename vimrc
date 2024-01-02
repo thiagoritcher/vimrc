@@ -1,6 +1,7 @@
 source  $HOME/.basic.vim
 command EMap  source $HOME/work/vim/eclim.vim
 
+
 let g:camelcasemotion_key = ';'
 
 " Plugins will be downloaded under the specified directory.
@@ -9,6 +10,8 @@ let g:camelcasemotion_key = ';'
 Plug 'vim-scripts/argtextobj.vim'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'bkad/CamelCaseMotion'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 " List ends here. Plugins become visible to Vim after this call.
  call plug#end()
 

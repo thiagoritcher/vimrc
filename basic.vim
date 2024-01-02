@@ -1,9 +1,11 @@
-let mapleader = ","
+let mapleader = " "
 
 nnoremap <leader>a ggVG
 nnoremap <leader>w :w<cr>
 nnoremap <leader>q :q<cr>
 nnoremap <leader>f :bn<cr>
+nnoremap <C-P> :Files<CR>
+
 nnoremap sh :nohlsearch<Bar>:echo<CR>
 
 nnoremap <leader>sp :set paste<cr>
@@ -40,3 +42,7 @@ vmap <Tab> >gv
 vmap <S-Tab> <gv
 
 inoremap <S-Tab> <C-D>
+
+noremap <C-j> 5j 
+noremap <C-k> 5k 
+
